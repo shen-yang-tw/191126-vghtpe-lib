@@ -510,7 +510,7 @@ img[src=""] {display: none;}
 ---------------------------------------------------- */
 [class*=uk-margin]:last-child {margin-bottom: 0}
 .uk-container {
-    padding: 0 5px;
+    padding: 0 15px;
 }
 .uk-offcanvas-bar:after {
     background: rgba(0,0,0,.3);
@@ -686,6 +686,63 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
     border-bottom: 0;
 }
 .banner.uk-position-z-index, .uk-offcanvas, .uk-dropdown.uk-position-z-index {z-index: 1035;}
+
+
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar .uk-overlay-panel, .offcanvas>div .uk-overlay-panel {
+  background: #e7f1f5 !important;
+  border-left: 1px rgba(108, 117, 125, 0.5) solid;
+  opacity: 1;
+}
+
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar, .offcanvas>div {
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
+}
+
+.uk-offcanvas:not(#offcanvas) * {
+  touch-action: none;
+}
+
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar *,
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a, .offcanvas>div *, .offcanvas>div a {
+  color: #212529 !important;
+}
+
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar .border, .offcanvas>div .border {
+  border-color: #6c757d !important;
+}
+
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar:after {
+  display: none;
+}
+
+.offcanvas {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  /* right: 0;
+  left: 0; */
+  z-index: 1035;
+  touch-action: none;
+}
+
+.offcanvas>div {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1001;
+  width: 270px;
+  max-width: 100%;
+  background: #333;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out;
+  -ms-scroll-chaining: none;
+}
+/* .offcanvas>div>div:nth-child(2){
+  min-height: 2000px;
+} */
 
 /*uk-small*/
 @media (min-width:480px) {
@@ -1086,6 +1143,9 @@ textarea {min-height: 100px;}
 }
 .text_center_sL {text-align: left;}
 .text_center_sR, .text_sR {text-align: right;}
+
+.offcanvas>div {width: calc(100% / 2);}
+
 }
 
 @media (min-width:768px) {
@@ -1415,6 +1475,9 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 
 .text_center_mxL {text-align: left;}
 .text_center_mLxR, .text_center_mxR {text-align: right;}
+
+.offcanvas>div {width: calc(100%*5 / 12);}
+
 }
 
 @media (min-width:1350px) {
