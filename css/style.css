@@ -1,7 +1,7 @@
 @charset "utf-8";
 .link a:link, .link a:visited, .link a:focus, .uk-breadcrumb a:link, .uk-breadcrumb a:visited, .uk-breadcrumb a:focus {color: #6bae21;}
-.color_primary, .color_primary *, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #6bae21 !important;}
-a.color_primary:hover, a.color_primary:hover *, .color_primary a:hover {color: #609c1e !important;}
+.color_primary, .color_primary *, .hover_color_primary:focus, .hover_color_primary:hover, ul.hover_color_primary>li>a:focus, ul.hover_color_primary>li>a:hover {color: #487517 !important;}
+a.color_primary:hover, a.color_primary:hover *, .color_primary a:hover {color: #395e13 !important;}
 .color_secondary, .color_secondary *, .hover_color_secondary:focus, .hover_color_secondary:hover, ul.hover_color_secondary>li>a:focus, ul.hover_color_secondary>li>a:hover {color: #FF9800 !important;}
 a.color_secondary:hover, a.color_secondary:hover *, .color_secondary a:hover {color: #e88b00 !important;}
 .bg_hover_white_color_primary:hover, [class*=color_] .bg_hover_white_color_primary:hover, [class*=color_] .bg_hover_white_color_primary:hover>*, [class*=color_] a.bg_hover_white_color_primary:hover, [class*=color_] a.bg_hover_white_color_primary:hover>*, [class*=color_] a.bg_hover_white_color_primary:hover>* path {color: #6bae21 !important; background-color: white;}
@@ -73,7 +73,7 @@ ol.listDecimalRow.badge>li:before {background: #6bae21;}
   border-bottom: 2px solid #dcdada;
 }
 .listTabs .uk-nav a {
-  color: #6bae21;
+  color: #487517;
   padding: 5px 15px;
 }
 .listTabs.listIconIndent .uk-nav a {
