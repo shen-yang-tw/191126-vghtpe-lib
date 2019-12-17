@@ -126,9 +126,11 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .border_black_opacity1, .border_hover_black_opacity1:focus, .border_hover_black_opacity1:hover {border-color: rgba(0, 0, 0, 0.1) !important;}
 .border_black_opacity3, .border_hover_black_opacity3:focus, .border_hover_black_opacity3:hover {border-color: rgba(0, 0, 0, 0.3) !important;}
 .border_black_opacity5, .border_hover_black_opacity5:focus, .border_hover_black_opacity5:hover {border-color: rgba(0, 0, 0, 0.5) !important;}
+.child_margin_all>* {margin-right: 5px; margin-bottom: 5px;}
 .child_margin>:not(:last-child) {margin-right: 5px; margin-bottom: 5px;}
 .child_margin10>:not(:last-child) {margin-right: 10px; margin-bottom: 10px;}
 .child_margin15>:not(:last-child) {margin-right: 15px; margin-bottom: 15px;}
+.child_marginB10_all>* {margin-bottom: 10px;}
 .child_marginB10>:not(:last-child) {margin-bottom: 10px;}
 .child_marginB15>:not(:last-child) {margin-bottom: 15px;}
 .margin_small {margin: 5px;}

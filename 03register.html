@@ -39,7 +39,7 @@
       <div class="uk-position-relative uk-visible-large">
         <div class="bg_primary opacity90 uk-overlay-panel uk-padding-remove"></div>
         <nav class="uk-container uk-container-center uk-position-relative uk-position-z-index">
-          <ul class="topList list_horizontal list_line color_white uk-text-right">
+          <ul class="topList list_horizontal list_line color_white uk-text-center">
             <li><a class="hover_linkline" href="#" title="#">圖書館</a></li>
             <li><a class="hover_linkline" href="#" title="#">最新消息</a></li>
             <li><a class="hover_linkline" href="#" title="#">常見問題</a></li>
@@ -52,20 +52,19 @@
         <!-- <div class="bg_secondary opacity20 uk-overlay-panel"></div> -->
         <div class="uk-container uk-container-center">
           <div id="logoMenuBar" class="marginTB_medium uk-position-relative uk-position-z-index uk-grid uk-grid-small" data-uk-grid-margin>
-            <div class="uk-width-3-6 uk-width-large-3-10 uk-padding-remove uk-vertical-align uk-visible-large"></div>
-            <div id="btn_canvas" class="uk-width-1-6 uk-padding-remove uk-vertical-align uk-hidden-large">
-              <div class="uk-vertical-align-middle"><a href="#" aria-label="menu" aria-labelledby="#offcanvas" data-uk-offcanvas="{target:'#offcanvas', mode:'slide'}"><i class="uk-icon-bars uk-icon-medium color_white"></i></a></div>
+            <div class="uk-width-3-6 uk-width-large-2-5 uk-padding-remove uk-vertical-align">
+              <div class="uk-width-1-1 uk-vertical-align-middle"><a class="logo paddingR_small uk-width-1-1 uk-margin-small-right" href="index.html"><img alt="logo" title="logo" src="img/logo.svg"></a></div>
             </div>
-            <div class="uk-width-2-6 uk-width-small-3-6 uk-padding-remove uk-vertical-align uk-hidden-large">
+            <div class="uk-width-2-6 uk-padding-remove uk-vertical-align uk-hidden-large">
               <div class="uk-vertical-align-middle"><small class="lineHeight_normal fontSize07 fontSize1@s fontSize1_2@m text-white font-weight-bold">電子資源管理系統<span class="ml-1 uk-hidden-small">Research Eyes</span></small></div>
             </div>
-            <div class="uk-width-large-4-10 uk-padding-remove uk-vertical-align uk-visible-large">
-              <div class="text_center uk-width-1-1 uk-vertical-align-middle">
+            <div id="btn_canvas" class="uk-width-1-6 uk-vertical-align uk-text-right uk-hidden-large">
+              <div class="uk-vertical-align-middle"><a href="#" aria-label="menu" aria-labelledby="#offcanvas" data-uk-offcanvas="{target:'#offcanvas', mode:'slide'}"><i class="uk-icon-bars uk-icon-medium color_white"></i></a></div>
+            </div>
+            <div class="uk-width-large-3-5 uk-padding-remove uk-vertical-align uk-visible-large">
+              <div class="text_center_lL uk-width-1-1 uk-vertical-align-middle">
                 <h4 class="uk-text-contrast uk-margin-remove"><span class="padding_small uk-text-bold">電子資源管理系統<span class="headerSpan uk-margin-small-left">Research Eyes</span></span></h4>
               </div>
-            </div>
-            <div class="uk-width-3-6 uk-width-small-2-6 uk-width-large-3-10 uk-vertical-align">
-              <div class="uk-width-1-1 uk-vertical-align-middle"><a class="logo uk-flex-right uk-width-1-1" href="index.html"><img alt="logo" title="logo" src="img/logo.svg"></a></div>
             </div>
           </div>
           <!-- #logoMenuBar -->
@@ -131,48 +130,154 @@
       <div class="uk-position-relative uk-margin-top uk-visible-large">
         <ul class="uk-breadcrumb">
           <li><a href="#" title="#">首頁</a></li>
-          <li class="uk-active"><span>資料庫</span></li>
+          <li class="uk-active"><span>線上註冊</span></li>
         </ul>
         <div class="uk-position-bottom-right">帳號: <span class="account"><a class="linkline" href="#" title="#">a1234</a></span></div>
       </div>
       <div class="min_height100vh min_heightLAuto bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box">
-        <h2 class="color_grey underline uk-position-relative">登入</h2>
-        <div class="uk-form uk-panel uk-panel-box">
+        <h2 class="color_grey underline uk-position-relative">亞東紀念醫院圖書館電子資源帳號申請 - 線上註冊</h2>
+        <div class="uk-form uk-form-stacked uk-panel uk-panel-box">
           <div class="uk-grid uk-grid-small uk-grid-width-medium-1-2" data-uk-grid-margin>
-            <div>
-              <input class="uk-form-large uk-width-responsive" type="text" placeholder="帳號：請輸入個人信箱">
+            <div class="uk-width-medium-1-2 uk-width-xlarge-1-4">
+              <label class="uk-form-label" for="id"><span class="mr-1 uk-text-danger">*</span>職員證號</label>
+              <input id="id" class="uk-form-large uk-width-responsive" type="text" placeholder="">
+              <small class="uk-form-help-block">熱也媽道加發著能年明賽時著傳縣讓整又</small>
+            </div>
+            <div class="uk-width-medium-1-2 uk-width-xlarge-1-4">
+              <label class="uk-form-label" for="name"><span class="mr-1 uk-text-danger">*</span>姓名</label>
+              <input id="name" class="uk-form-large uk-width-responsive" type="text" placeholder="">
+              <small class="uk-form-help-block">熱也媽道加發著能年明賽時著傳縣讓整又</small>
+            </div>
+            <div class="uk-width-medium-1-2 uk-width-xlarge-1-4">
+              <label class="uk-form-label" for="phone">連絡電話</label>
+              <input id="phone" class="uk-form-large uk-width-responsive" type="text" placeholder="">
+              <small class="uk-form-help-block">熱也媽道加發著能年明賽時著傳縣讓整又</small>
+            </div>
+            <div class="uk-width-medium-1-2 uk-width-xlarge-1-4">
+              <span class="uk-form-label">性別</span>
+              <label class="mr-4"><input class="mr-1" type="radio" name="sex" checked="true">男</label>
+              <label class="mr-4"><input class="mr-1" type="radio" name="sex">女</label>
             </div>
             <div>
-              <input class="uk-form-large uk-width-responsive" type="text" placeholder="密碼：請輸入6-15碼英數混合密碼">
+              <label class="uk-form-label" for="dep"><span class="mr-1 uk-text-danger">*</span>單位</label>
+              <select id="dep" class="w-100 uk-form-large">
+                <option>-</option>
+                <option>Admi. 行政部門</option>
+                <option>Anes. 麻醉科</option>
+                <option>CDE 兒童發展中心</option>
+                <option>CM. 心臟血管內科</option>
+                <option>CM1. 心臟內科</option>
+                <option>CS. 心臟血管外科</option>
+                <option>CS. 胸腔外科</option>
+                <option>CV 心臟血管醫學中心</option>
+                <option>Chest 胸腔內科</option>
+                <option>Colo. 直腸外科</option>
+                <option>Den. 牙科部</option>
+                <option>Derm. 皮膚科</option>
+                <option>ENT 耳鼻喉科</option>
+                <option>Emer. 急診醫學部</option>
+                <option>Fam. 家庭醫學科</option>
+                <option>GI. 肝膽胃腸科</option>
+                <option>GM. 一般內科</option>
+                <option>GS. 一般外科</option>
+                <option>GYN. 婦產部</option>
+                <option>Hboc 高壓氧中心</option>
+                <option>Heal. 健康管理中心</option>
+                <option>Hem. 血液腫瘤科</option>
+                <option>Img. 影像醫學科</option>
+                <option>Immu. 免疫風濕科</option>
+                <option>Info. 感染科</option>
+                <option>Kidney 腎臟內科</option>
+                <option>Lib. 圖書館</option>
+                <option>MAC 形體美容醫學中心</option>
+                <option>Meta. 新陳代謝科</option>
+                <option>NS. 神經外科</option>
+                <option>Neur. 神經內科</option>
+                <option>Nuc. 核子醫學科</option>
+                <option>Nurs. 護理部</option>
+                <option>Nutr. 營養科</option>
+                <option>Oph. 眼科</option>
+                <option>Orth. 骨科</option>
+                <option>Other. 院外單位</option>
+                <option>Path. 組織病理科</option>
+                <option>Pathc. 臨床病理科</option>
+                <option>Ped. 小兒部</option>
+                <option>Pes. 小兒外科</option>
+                <option>Phar. 藥學部</option>
+                <option>Plast. 整形外科</option>
+                <option>ProM. 職業醫學科</option>
+                <option>Psy. 精神科</option>
+                <option>Rad. 放射腫瘤科</option>
+                <option>Reh. 復健科</option>
+                <option>Reh01 復健-物理治療</option>
+                <option>Reh02 復健-職能治療</option>
+                <option>Reh03 復健-語言治療</option>
+                <option>Res. 醫學研究部</option>
+                <option>Ret. 亞東退休員工</option>
+                <option>TEA. 教學部</option>
+                <option>Trad. 傳統醫學科</option>
+                <option>Urol. 泌尿外科</option>
+              </select>
             </div>
-            <!-- <div class="uk-form-row">
+            <div>
+              <label class="uk-form-label" for="identity"><span class="mr-1 uk-text-danger">*</span>身分</label>
+              <select id="identity" class="w-100 uk-form-large">
+                <option>-</option>
+                <option>A 主治醫師</option>
+                <option>B 護理人員</option>
+                <option>BP 專科護理師</option>
+                <option>C 西醫PGY</option>
+                <option>D 行政人員</option>
+                <option>E 館員</option>
+                <option>F 代訓學員</option>
+                <option>G 支援醫師</option>
+                <option>H 醫事PGY</option>
+                <option>I 醫事人員</option>
+                <option>J 研究助理</option>
+                <option>L 關係企業</option>
+                <option>M 聯盟醫院</option>
+                <option>N 實習醫師</option>
+                <option>NAT 國際交流人員</option>
+                <option>O 實習醫事人員</option>
+                <option>P 實習行政人員</option>
+                <option>Q 實習護生</option>
+                <option>R 住院醫師</option>
+                <option>S 研究人員</option>
+                <option>T 亞東退休員工</option>
+                <option>U 臨床護理教師</option>
+                <option>V 參訪代訓人員</option>
+                <option>W 陽明大學館際合作</option>
+                <option>X 院外醫療人員</option>
+              </select>
+            </div>
+            <div>
+              <label class="uk-form-label" for="pw"><span class="mr-1 uk-text-danger">*</span>密碼</label>
+              <input id="pw" class="uk-form-large uk-width-responsive" type="text" placeholder="">
+              <small class="uk-form-help-block">進緊太如成的然，濟手小、熱也媽道加發著能年明賽時著傳縣讓整又，學阿民別本山化著也然增全得意就心家容也是手美我告</small>
+            </div>
+            <div>
+              <label class="uk-form-label" for="pw_confirm"><span class="mr-1 uk-text-danger">*</span>密碼確認</label>
+              <input id="pw_confirm" class="uk-form-large uk-width-responsive" type="text" placeholder="">
+              <small class="uk-form-help-block">進緊太如成的然，濟手小、熱也媽道加發著能年明賽時著傳縣讓整又，學阿民別本山化著也然增全得意就心家容也是手美我告</small>
+            </div>
+            <div>
               <div class="uk-grid uk-grid-small uk-grid-width-small-1-2">
                 <div class="captcha_input uk-margin-small-bottom">
-                  <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入圖形6碼數字">
+                  <input class="uk-form-large uk-width-responsive" type="text" placeholder="請輸入驗證碼">
+                  <small class="uk-form-help-block">熱也媽道加發著能年明賽時著傳縣讓整又</small>
                 </div>
-                <div class="Captcha_code"><img class="uk-margin-small-bottom" src="http://fakeimg.pl/150x40/"></div>
-              </div>
-            </div> -->
-            <div class="uk-width-1-1">
-              <label><input class="uk-margin-small-right" type="checkbox">記住我的帳號</label>
-            </div>
-            <div class="uk-width-1-1">
-              <div class="uk-flex uk-flex-wrap uk-flex-center">
-                <div class="min_width1_4!@s mr-1"><a class="btn_primary mb-1 uk-button uk-button-large uk-width-responsive" href="#" title="登入">登　　入</a></div>
-                <div class="min_width1_4!@s mr-1"><a class="btn_secondary mb-1 uk-button uk-button-large uk-width-responsive" href="#" title="登入">到館讀者</a></div>
-                <div class="min_width1_4!@s mr-1"><a class="btn_secondary mb-1 uk-button uk-button-large uk-width-responsive" href="#" title="登入">gust登入</a></div>
+                <div class="captcha_code"><img class="mr-1 uk-margin-small-bottom" src="http://fakeimg.pl/150x40/"><a class="fontSize09" href="#">重新產生</a></div>
               </div>
             </div>
-            <div class="uk-text-center uk-width-1-1">
-              <a class="uk-display-inline-block uk-margin-small-left uk-margin-small-right uk-margin-bottom" href="03register.html">會員註冊</a>
-              <a class="uk-display-inline-block uk-margin-small-left uk-margin-small-right uk-margin-bottom" href="#">忘記密碼</a>
+            <div class="uk-width-1-1">
+              <div class="uk-grid uk-grid-small uk-grid-width-1-2" data-uk-grid-margin>
+                <div><button class="btn_primary uk-button uk-button-large uk-width-responsive" type="submit" value="Submit">申　　請</button></div>
+                <div><a class="btn_secondary uk-button uk-button-large uk-width-responsive uk-modal-close" href="#">取　　消</a></div>
+              </div>
             </div>
           </div>
         </div>
-        <h3 class="fontSizeH5 uk-text-bold uk-article-lead">系統說明</h3>
-        <p class="urlFix">怎門文拿，名才同地無時生？止興服多風得毛……得心四改著細風故導認己兒飯放快力早師要思！三計們致不願安首後戲果場化深，的片管家這的科代心長上備他解到打曾集式動海越，引飛到三我修！並先法居我成行者住上日活。</p>
-        <h3 class="fontSizeH5 uk-text-bold uk-article-lead">認證方式</h3>
-        <p class="urlFix"><a class="color_primary" href="#">連結</a>，名才同地無時生？止興服多風得毛……得心四改著細風故導認己兒飯放快力早師要思！三計們致不願安首後戲果場化深，的片管家這的科代心長上備他解到打曾集式動海越，email：<a class="color_primary" href="mailto:xxx@gmail.com">xxx@gmail.com</a></p>
+        <p class="urlFix"><span class="mr-1 uk-text-danger">*</span>為必備欄位</p>
       </div>
       <!-- .uk-container -->
     </div>
