@@ -1483,6 +1483,7 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 #logoMenuBar>div:last-child {
     width: 100%;
     position: absolute;
+    left: 0;
 }
 #logoMenuBar>div:last-child h4 {
     margin-top: -5px !important;
@@ -1494,6 +1495,10 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 }
 #logoMenuBar>div:first-child {
     z-index: 1;
+}
+#logoMenuBar>div:last-child .logo {
+    margin-top: -7px;
+    max-height: 47px;
 }
 
 }
