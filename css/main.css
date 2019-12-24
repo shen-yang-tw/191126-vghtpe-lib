@@ -1480,6 +1480,22 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 
 .offcanvas>div {width: calc(100%*5 / 12);}
 
+#logoMenuBar>div:last-child {
+    width: 100%;
+    position: absolute;
+}
+#logoMenuBar>div:last-child h4 {
+    margin-top: -5px !important;
+}
+#logoMenuBar>div:last-child h4>span {
+    font-size: 1.7rem;
+    text-align: center;
+    width: 100%;
+}
+#logoMenuBar>div:first-child {
+    z-index: 1;
+}
+
 }
 
 @media (min-width:1350px) {

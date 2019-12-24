@@ -13,8 +13,6 @@ a.color_secondary:hover, a.color_secondary:hover *, .color_secondary a:hover {co
 .fontsize li>a {color: #6bae21 !important; border: 1px solid #6bae21;}
 .fontsize li.uk-active>a, .fontsize li.uk-open>a, .fontsize li>a:focus, .fontsize li>a:hover {background: #6bae21 !important; border-color: #6bae21; color: white !important;}
 ol.listDecimalRow.badge>li:before {background: #6bae21;}
-.aspectRatio:before {/*width: 100px;*/ /* if width=0 then set custom width */}
-.aspectRatio.ratio_9_16:before {/*width: 100px;*/ /* if width=0 then set custom width */}
 .icon {width: 10em;}
 .icon:before {display: none; font-family: "Font Awesome 5 Solid"; content: "\f105";}
 .bg_img_gradient {
@@ -273,18 +271,6 @@ footer, footer a {color: white !important;}
 .page .searchBar[data-uk-sticky].uk-active {
   left: calc(50% - 1150px/2);
   max-width: 1150px !important;
-}
-#logoMenuBar>div:last-child {
-    width: 100%;
-    position: absolute;
-}
-#logoMenuBar>div:last-child h4 {
-    margin-top: -5px !important;
-}
-#logoMenuBar>div:last-child h4>span {
-    font-size: 1.7rem;
-    text-align: center;
-    width: 100%;
 }
 }
 
