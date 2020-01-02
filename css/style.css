@@ -83,7 +83,7 @@ ol.listDecimalRow.badge>li:before {background: #6bae21;}
 }
 .listTabs .uk-nav>li.uk-open>a,
 .nav_side .uk-nav>li.uk-open>a {
-  background: #c1ced4  !important;
+  background: #8b979c  !important;
   color: white !important;
 }
 .listTabs .uk-nav-sub>li[aria-expanded="false"] li[aria-expanded="true"]>a,
@@ -186,6 +186,11 @@ ol.listDecimalRow.badge>li:before {background: #6bae21;}
 #header .uk-container {max-width: inherit;}
 #header #logoMenuBar *, #header .menuBar *{color: black  !important;}
 /* #header #logoMenuBar *, #header .menuBar *{color: #043244  !important;} */
+#logoMenuBar .menuBar>nav {
+  display: inline-block;
+  /* background-color: RGB(0,130,35,0.2); */
+  margin-top: 5px;
+}
 
 .uk-list .uk-offcanvas.uk-active>div>div:first-child {display: none;}
 

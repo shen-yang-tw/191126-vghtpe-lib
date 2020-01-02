@@ -56,7 +56,7 @@ input.color_white::-ms-input-placeholder, textarea.color_white::-ms-input-placeh
 .color_default, .color_default *, .hover_color_default:focus, .hover_color_default:hover {color: #444 !important;}
 .color_black, .color_black *, .hover_color_black:focus, .hover_color_black:hover {color: #000 !important;}
 .color_defaultGrey, .color_defaultGrey *, .hover_color_defaultGrey:focus, .hover_color_defaultGrey:hover {color: #999 !important;}
-.color_grey, .color_grey *, .hover_color_grey:focus, .hover_color_grey:hover {color: #adb9bd !important;}
+.color_grey, .color_grey *, .hover_color_grey:focus, .hover_color_grey:hover {color: #5f6769 !important;}
 .color_primary, .color_primary *, .color_primary, .hover_color_primary:focus, .hover_color_primary:hover {color: #009dd8 !important;}
 .color_secondary, .color_secondary *, .hover_color_secondary:focus, .hover_color_secondary:hover {color: #82bb42 !important;}
 .bg_white, .bg_hover_white {background-color: white !important;}
@@ -1003,6 +1003,9 @@ textarea {min-height: 100px;}
   max-height: 200px;
   overflow-y: auto;
 }
+.text_right_lC {
+  text-align: right;
+}
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ End of Style */
 
@@ -1152,6 +1155,7 @@ textarea {min-height: 100px;}
 }
 .text_center_sL {text-align: left;}
 .text_center_sR, .text_sR {text-align: right;}
+.text_right_sC {text-align: center;}
 
 .offcanvas>div {width: calc(100% / 2);}
 
@@ -1242,6 +1246,8 @@ textarea {min-height: 100px;}
 }
 .text_center_mL, .text_center_mxL, .text_center_mLxR {text-align: left;}
 .text_mR, .text_center_mR, .text_center_mxR {text-align: right;}
+.text_right_mC {text-align: center;}
+
 }
 
 @media (min-width:960px) {
@@ -1405,6 +1411,7 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 .text_center_mLlCxR {text-align: center;}
 .text_center_lL {text-align: left;}
 .text_center_lR {text-align: right;}
+.text_right_lC {text-align: center;}
 .paddingR_xlarge_l {padding-right: 20px !important;}
 
 }
@@ -1484,6 +1491,7 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 
 .text_center_mxL {text-align: left;}
 .text_center_mLxR, .text_center_mxR {text-align: right;}
+.text_right_xlC {text-align: center;}
 
 .offcanvas>div {width: calc(100%*5 / 12);}
 
@@ -1511,4 +1519,5 @@ ol.listDecimalRow.listBadge.listBadgeDivder>li:after {margin: 0; top: 5px; botto
 }
 
 @media (min-width:1350px) {
+.text_right_2xlC {text-align: center;}
 }
