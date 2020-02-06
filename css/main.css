@@ -753,6 +753,14 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
   min-height: 2000px;
 } */
 
+.offcanvas .editor a {
+    color: #0099d6 !important;
+    text-decoration: underline;
+}
+.offcanvas .editor a:hover {
+    color: black !important;
+}
+
 /*uk-small*/
 @media (min-width:480px) {
 .uk-list .uk-offcanvas.uk-active>div {width: calc(100% / 2);}
