@@ -130,7 +130,7 @@ input.bg_white[type=radio]:checked:before, .bg_white>input[type=radio]:checked:b
 .child_margin>:not(:last-child) {margin-right: 5px; margin-bottom: 5px;}
 .child_margin10>:not(:last-child) {margin-right: 10px; margin-bottom: 10px;}
 .child_margin15>:not(:last-child) {margin-right: 15px; margin-bottom: 15px;}
-.child_marginB10_all>* {margin-bottom: 10px;}
+.child_margin_all>* {margin-bottom: 10px;}
 .child_marginB10>:not(:last-child) {margin-bottom: 10px;}
 .child_marginB15>:not(:last-child) {margin-bottom: 15px;}
 .margin_small {margin: 5px;}
@@ -712,7 +712,7 @@ input:not([type]).uk-form-large, input[type].uk-form-large, select.uk-form-large
 }
 
 .uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar *,
-.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a, .offcanvas>div *, .offcanvas>div a {
+.uk-offcanvas:not(#offcanvas) .uk-offcanvas-bar a, .offcanvas>div *:not([color]):not([style]):not(a), .offcanvas>div a {
   color: #212529 !important;
 }
 

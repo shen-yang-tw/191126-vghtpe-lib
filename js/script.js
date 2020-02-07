@@ -30,6 +30,15 @@ function toggleAllClass(allChildren, cls) {
   // return false; //not working
 }
 
+function removeAndToggle(thisElement, parentTagName, targetToggle, toggleClassName) {
+  AddClass(targetToggle, toggleClassName)
+  var parent = findParent(thisElement, parentTagName)
+  var allChildren = findChildren(parent, targetToggle)
+  for (var i = 0; i < allChildren.length; i++) {
+    allChildren[i].classList.toggle(toggleClassName);
+  }
+}
+
 function findParent(thisElement, parentTagName) {
   while ((thisElement = thisElement.parentElement) && (thisElement.tagName != parentTagName));
   //Searching loop only stop while parent is founded
@@ -38,6 +47,22 @@ function findParent(thisElement, parentTagName) {
 
 function findChildren(parentEL, sl) {
   return parentEL.querySelectorAll(sl);
+}
+
+//Add Class to all
+function AddClass(el, className) {
+  var _el = document.querySelectorAll(el);
+  for (var i = 0; i < _el.length; i++) {
+    _el[i].classList.add(className);
+  }
+}
+
+//Remove Class to all
+function RemoveClass(el, className) {
+  var _el = document.querySelectorAll(el);
+  for (var i = 0; i < _el.length; i++) {
+    _el[i].classList.remove(className);
+  }
 }
 
 //--------------- end pure js ----------------------------------------------------------//
@@ -224,14 +249,14 @@ $(document).ready(function() {
 
   //.offcanvas
   $(document).mouseup(function(e) {
-    if (!$(".offcanvas, .btn_summary").is(e.target) && $(".offcanvas").has(e.target).length === 0) {
+    if ($(".offcanvas").has(e.target).length === 0) {
       $(".offcanvas").addClass("hidden");
     }
   });
-  // $(".offcanvas [style^='color:']").attr('style', 'color:' + $(".offcanvas [style^='color:']").inlineStyle('color') + ' !important;');
-  $(".editor [style^='color:']").each(function() {
-    $(this).attr('style', 'color:' + $(this).inlineStyle('color') + ' !important;');
-  })
+  //.offcanvas .editor
+  // $(".editor [style^='color:']").each(function() {
+  //   $(this).attr('style', 'color:' + $(this).inlineStyle('color') + ' !important;');
+  // })
 
 });
 
